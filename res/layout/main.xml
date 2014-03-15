@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/relativeLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:padding="5dp"
+        android:text="@string/textview1"
+        android:textColor="@android:color/background_dark"
+        android:textSize="5pt" />
+
+    <EditText
+        android:id="@+id/phonenum"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/textView1"
+        android:layout_marginLeft="5dp"
+        android:inputType="textPersonName"
+        android:padding="5dp" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:layout_alignBottom="@+id/phonenum"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="16dp"
+        android:gravity="center_vertical"
+        android:text="@string/contact" />
+
+    <EditText
+        android:id="@+id/content"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_alignLeft="@+id/phonenum"
+        android:layout_below="@+id/phonenum"
+        android:layout_marginTop="33dp"
+        android:inputType="textMultiLine"
+        android:padding="5dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:layout_alignLeft="@+id/content"
+        android:layout_below="@+id/content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center_vertical"
+        android:text="@string/clicktosent" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:layout_alignRight="@+id/content"
+        android:layout_alignTop="@+id/button3"
+        android:gravity="center_vertical"
+        android:text="@string/settimetosent" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:layout_alignBottom="@+id/content"
+        android:layout_alignLeft="@+id/button1"
+        android:gravity="center_vertical"
+        android:text="@string/sms" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/phonenum"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:padding="5dp"
+        android:text="@string/textview2"
+        android:textColor="@android:color/background_dark"
+        android:textSize="5pt" />
+
+</RelativeLayout>

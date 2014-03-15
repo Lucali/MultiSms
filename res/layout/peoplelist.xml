@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="horizontal" 
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"	
+	android:descendantFocusability="blocksDescendants"
+	android:padding="10dip">
+	
+	<!--
+	这里设置为水平的是为了让其显示两列内容，即歌曲名字和歌词名字，这个xml是为了给listview指定其两个值而定义的。 
+ 	-->
+        <TextView          
+             
+            android:id="@+id/phone_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView" 
+            android:layout_weight="1"
+            android:gravity="center_horizontal" 
+            
+            />
+	<!--  
+        <TextView
+        
+            android:id="@+id/phone_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView" 
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+           	android:layout_margin="10dip"
+           	
+            />
+     -->   
+     	<EditText 
+     	    android:id="@+id/phone_name2"
+     	    android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView" 
+            android:layout_weight="1"
+            android:gravity="center_horizontal"    
+            
+     	    />
+		<CheckBox
+		
+		android:id="@+id/checkbox"		   
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+     	
+		    />
+</LinearLayout>

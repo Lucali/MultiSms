@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/listLinearLayout"
+	android:orientation="vertical" 
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+
+	<!-- 
+	android:id="@id/android:id/list" 是安卓内置的id
+	android:scrollbars="vertical" 滚动条 指出滚动条放到什么方向上。
+	 -->
+		<ListView android:id="@android:id/list" 
+		    android:layout_width="fill_parent"
+			android:layout_height="wrap_content" 
+			android:drawSelectorOnTop="true"
+			android:scrollbars="vertical" 
+			android:fastScrollEnabled="true" 
+			android:focusable="true" 
+			 android:cacheColorHint="#00000000"
+
+			android:layout_weight="0.15"
+				/>    
+		
+	<LinearLayout
+	    android:id="@+id/linearLayout1"
+	    android:layout_width="fill_parent"
+	    android:layout_height="match_parent"
+	    android:orientation="horizontal" 
+	    android:layout_weight="0.85">
+	
+	    <Button
+		    android:id="@+id/makesure"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:text="@string/makesure" 
+		    android:gravity="center_vertical" 
+		    android:layout_weight="1"/>
+	    
+	    	<Button
+		    android:id="@+id/select_all"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:text="@string/select_all" 
+		    android:gravity="center_vertical" 
+		    android:layout_weight="1"/>
+	    
+		<Button
+		    android:id="@+id/select_none"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:text="@string/select_none" 
+		   android:gravity="center_vertical" 
+		    android:layout_weight="1"/>
+		
+			<Button
+		    android:id="@+id/cunzu"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:text="@string/cunzu" 
+		     android:gravity="center_vertical" 
+		    android:layout_weight="1"/>
+
+		
+	</LinearLayout>
+
+
+</LinearLayout>

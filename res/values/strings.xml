@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, MultiSms!</string>
+    <string name="app_name">MultiSms</string>
+    <string name="contact">通讯录</string>
+    <string name="sms">短信</string>
+    <string name="clicktosent">点击发送</string>
+    <string name="settimetosent">定时发送</string>
+    <string name="textview1">在下面的对话框中，选取通讯录中相应的联系人</string>
+    <string name="textview2">在下面的对话框中，输入短信内容</string>
+    <string name="contactpeoplespec">联系人</string>
+    <string name="contactgroupspec">群组</string>
+    <string name="failure">发送失败</string>
+    <string name="success">发送成功</string>
+    <string name="select_all">全选</string>
+    <string name="select_none">取消</string>
+    <string name="makesure">确定</string>
+    <string name="cunzu">存组</string>
+    <string name="showsentname">请在下面的对话框中填写您需要发送的名字</string>
+    <string name="makesurebutton">确定</string>
+    <string name="cancelbutton">取消</string>
+    <string name="showsettime">请您选择短信发送的时间,并确认。</string>
+    <string name="setsenttime_makesure">确定</string>
+    <string name="setsenttime_cancel">取消</string>
+	
+</resources>

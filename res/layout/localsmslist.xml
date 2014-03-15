@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/smslist"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <!--
+	android:id="@id/android:id/list" 是安卓内置的id
+	android:scrollbars="vertical" 滚动条 指出滚动条放到什么方向上。
+    -->
+
+    <ListView
+        android:id="@android:id/list"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.15"
+        android:cacheColorHint="#00000000"
+        android:drawSelectorOnTop="true"
+        android:fastScrollEnabled="true"
+        android:focusable="true"
+        android:scrollbars="vertical" />
+
+</LinearLayout>
