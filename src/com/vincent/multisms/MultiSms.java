@@ -35,14 +35,14 @@ public class MultiSms extends Activity {
 		Button contact = (Button) findViewById(R.id.button1);
 		Button smsinfo = (Button) findViewById(R.id.button2);
 		Button sentclick = (Button) findViewById(R.id.button3);
-		Button settimetosend = (Button) findViewById(R.id.button4);
+	//	Button settimetosend = (Button) findViewById(R.id.button4);
 		textphonenum = (EditText) findViewById(R.id.phonenum);
 		textcontent = (EditText) findViewById(R.id.content);
 		textcontent.setText(init_phonecontent);
 		contact.setOnClickListener(new onContactClick());
 		smsinfo.setOnClickListener(new onSmsinfoClick());
 		sentclick.setOnClickListener(new onSentClick());
-		settimetosend.setOnClickListener(new onSetTimeToSend());
+	//	settimetosend.setOnClickListener(new onSetTimeToSend());
 		initsentlist();
 		initsentcontent();
 

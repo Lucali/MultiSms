@@ -2,7 +2,7 @@
 <resources>
 
     <string name="hello">Hello World, MultiSms!</string>
-    <string name="app_name">MultiSms</string>
+    <string name="app_name">短信群发</string>
     <string name="contact">通讯录</string>
     <string name="sms">短信</string>
     <string name="clicktosent">点击发送</string>
